@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'HELR45W';
+  src: url('HELR45W.ttf') format('truetype');
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+header {
+	background: url('background.png');
+	height: 20%;
+	min-height: 80px;
+	width: 100%;
+}
+
+header h1 {
+	color: #fff;
+	font-family: 'Lyneousl', serif;
+	font-size: 85px;
+	line-height: 150px;
+	text-align: center;
+}
+
+.main {
+	font-family: 'Garamond';
+	height: 80%;
+	overflow-y: scroll;
+	width: 100%;
+}
+
+aside {
+	float: left;
+	font-size: 20px;
+	height: 100%;
+	margin: 70px 0 70px 130px;
+	padding: 15px;
+	width: 20%;
+}
+
+aside ul {
+	text-transform: uppercase;
+	position: fixed;
+}
+
+aside ul li:before {
+	margin-right: 10px;
+}
+
+.content {
+	display: none;
+	float: left;
+	height: 100%;
+	margin-top: 70px;
+	padding: 0 65px;
+	text-align: justify;
+	width: 55%;
+}
+
+#aboutSection {
+	float: left;
+	height: 100%;
+	margin-top: 70px;
+	padding: 0 65px;
+	text-align: justify;
+	width: 55%;
+}
+
+#howItWorksSection {
+	display: none;
+}
+
+#signUpSection, #loginSection, #signInSection, #frontPageSection, #articlePageSection, #userPageSection, #registerPageSection {
+	display: block;
+}
+
+div h1 {
+	font-style: italic;
+	font-size: 30px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+div p {
+	font-size: 20px;
+	margin-bottom: 55px;
+}
+
+#howItWorksSection:before {
+	content: "";
+}
+
+#howItWorksSection {
+	margin-left: 30px;
+	margin-top: -12px;
+}
+
+.options {
+	border: 4px double brown; 
+    height: 30%;
+    padding: 20px 0px 20px 30px;
+	width: 215px;
+}
+
+.options li a {
+	text-decoration: none;
+}
