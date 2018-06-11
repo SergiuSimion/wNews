@@ -1,0 +1,323 @@
+@font-face {
+  font-family: 'HELR45W';
+  src: url('fonts/HELR45W Gem.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'HELR45W';
+  src: url('fonts/HELR45W.ttf') format('truetype');
+}
+
+html, body {
+  color: #fff;
+  height:100%;
+  width:100%;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+.container {
+  background: url('../images/bgr1.jpg');
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.container header {
+  border-bottom: 4px double #fff;
+  background: #000;
+  height: 90px;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.container .mainBody {
+  font-family: 'HELR45W';
+  height: calc(100% - 90px);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+  width: 100%;
+}
+
+
+/* Logo */
+
+.appLogo {
+  font-family: 'HELR45W', serif;
+  height: inherit;
+  letter-spacing: 3px;
+  width: 100%;
+  padding: 10px;
+}
+
+button {
+  font-family: 'Sinead', serif;
+  letter-spacing: 2px;
+}
+
+input {
+  font-family: 'HELR45W';
+}
+
+.appLogo ul {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  width: 20%;
+}
+
+.appLogo ul li {
+  display: inline-block;
+  padding-right: 15px;
+  text-align: center;
+}
+
+.appLogo h1 {
+  color: #fff;
+  font-family: 'Sinead', serif;
+  font-size: 65px;
+  line-height: 74px;
+  text-align: center;
+}
+
+.appLogo a {
+  color: #fff;
+  cursor: pointer;
+  /*float: left;*/
+  /*height: inherit;*/
+  text-decoration: none;
+}
+
+.appLogo #signUp h3, #signIn h3, #about h3 {
+  text-align: center;
+  line-height: 80px;
+  height: inherit;
+}
+
+.appLogo #login h3, #login {
+  text-align: center;
+  line-height: 80px;
+  height: inherit;
+}
+
+.appLogo #signIn {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+
+.appLogo a:nth-child(2) {
+  /* border-bottom: 4px double #fff; */
+  width: 80%;
+}
+
+
+.loggedIn {
+  display: none;
+  font-family: 'HELR45W', serif;
+  letter-spacing: 2px;
+  padding-top: 15px;
+  position: absolute;
+  left: 25px;
+  top: 0;
+}
+
+.loggedIn a {
+  color: #fff;
+  display: block;
+}
+
+.loggedIn #signOut {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.mobileLog {
+  display: none;
+}
+
+.mobileLogin {
+  display: none;
+}
+
+.myCategories {
+  float: left;
+  height: 100%;
+  margin-left: 10px;
+  width: 250px;
+}
+
+.myCategories .categTitle h1 {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-style: italic;
+  color: teal;
+}
+
+.subreddits2 {
+  /*float: center;*/
+  height: 100%;
+  left: 10px;
+  position: fixed;
+  top: 95px;
+  width: 40%;
+}
+
+.subreddits3 {
+  /*float: center;*/
+  height: 100%;
+  center: 15px;
+  position: fixed;
+  top: 95px;
+  width: 80%;
+}
+
+.myCategories .subrTitle {
+  margin-left: 15px;
+  margin-top: 10px;
+  width: 85%
+}
+
+.myCategories .subrTitle h1 {
+  font-size: 40px;
+  text-align: center;
+  /*float: center;*/
+}
+
+.subreddits2 .subrTitle2 {
+  margin-left: 15px;
+  margin-top: 10px;
+  width: 85%
+}
+
+.subreddits2 .subrTitle2 h1 {
+  font-size: 40px;
+  text-align: center;
+  float: right;
+}
+
+.myCategories ul {
+  border: 4px double #fff;
+  font-size: 20px;
+  height: 260px;
+  margin-left: 5px;
+  margin-top: 10px;
+  /*overflow-y: scroll; */
+  padding: 10px;
+  width: auto;
+  margin-right: 15px;
+}
+.myCategories ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.myCategories ul li {
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.myCategories ul li:before {
+  content: " » ";
+}
+#news .article {
+  box-shadow: inset 0px 0px 1px #FFFFCC;
+  font-family: 'HELR45W', serif;
+  width: 100%;
+  height: auto;
+  border: 1px solid;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#news .article a {
+  text-decoration: none;
+  color: #fff;
+  outline: none;
+  display: block;
+  position: relative;
+}
+
+#news .article:hover {
+  border-width: 2px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+#news {
+  display: none;
+  font-family: 'HELR45W';
+  font-size: 20px;
+  float: left;
+  height: 100%;
+  margin-top: 48px;
+  width: calc(100% - 275px);
+  z-index: 5;
+  margin-right: 15px;
+}
+
+#news .article .title {
+  font-size: 26px;
+  margin-bottom: 20px;
+
+}
+
+#news .article img + .info {
+    margin-left: 70px;
+}
+
+#news .article .score,
+#news .article .comments {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+#news article h2 {
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  line-height: 16px;
+  max-height: 74px;
+  overflow: hidden;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#news article h2:after {
+  content: "...";
+}
+
+#news img {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 60px;
+  height: 60px;
+}
+
+#news article h4 {
+  font-size: 14px;
+  margin-left: 4px;
+  position: absolute;
+}
+
+#news article h4:nth-child(3) {
+  bottom: 25px;
+}
+
+#news article h4:nth-child(4) {
+  bottom: 10px;
+}

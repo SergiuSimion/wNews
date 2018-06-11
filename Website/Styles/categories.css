@@ -1,0 +1,84 @@
+.myCategories {
+  display: none;
+}
+
+#allCategories {
+  height: 100%;
+  width: calc(100% - 70px);
+  padding: 15px;
+  clear: both;
+}
+
+#allCategories .loadingMsg,
+#allCategories .pageTitle {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: teal;
+}
+
+#allCategories .loadingMsg {
+  display: none;
+}
+
+#allCategories .categ {
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid;
+  float: left;
+  margin: 10px;
+  overflow-y: auto;
+  cursor: pointer;
+}
+
+#allCategories .categ:hover {
+  background: rgba(0,0,0, 0.5);
+  color: teal;
+}
+
+#allCategories .categ .title {
+  display: inline-block;
+  height: 48px;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#allCategories .categ .description {
+
+}
+
+#allCategories .categ .logo {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+}
+
+.mainBody #saveCategories {
+  position: fixed;
+  top: 50%;
+  background: transparent;
+  color: gray;
+  font-size: 20px;
+  padding: 10px;
+  right: 25px;
+  cursor: default;
+  visibility: hidden;
+  border-color: gray;
+  width: 70px;
+  text-align: center;
+}
+
+.mainBody #saveMsg {
+  display: none;
+  color: green;
+  position: fixed;
+  top: calc(50% + 55px);
+  right: 25px;
+  width: 70px;
+  text-align: center;
+}
