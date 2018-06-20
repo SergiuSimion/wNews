@@ -1,0 +1,147 @@
+
+.mainBody.myAccount {
+  clear: both;
+}
+
+.mainBody.myAccount menu {
+  float: left;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 10px 15px;
+  border: 4px double;
+  width: 170px;
+}
+.mainBody.myAccount menu#addCategoryMenu {
+  position: absolute;
+  top: 125px;
+  float: none;
+  display: none;
+}
+
+.mainBody.myAccount menuitem {
+  display: block;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      font-size: 20px;
+}
+
+.mainBody.myAccount menuitem:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.mainBody.myAccount menuitem.selected {
+  text-decoration: underline;
+}
+
+.mainBody.myAccount menu#addCategory input {
+  max-width: 130px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+button {
+	background: transparent;
+	border: 1px solid;
+	border-radius: 3px;
+	height: 28px;
+	width: 120px;
+  cursor: pointer;
+  color: inherit;
+}
+
+button#removeCategories {
+  display: none;
+  margin-left: 10px;
+}
+
+#saveUserInfo {
+	margin: 10px 15% 0 15%;
+}
+
+.preferences {
+	float: left;
+	padding: 5px 20px 10px 30px;
+  width: calc(100% - 200px);
+  margin-top: 30px;
+}
+
+.preferences div {
+	margin-bottom: 31px;
+}
+
+.preferences .colorThemes ul, .refreshTime ul{
+	margin-top: 10px;
+}
+
+.preferences .colorThemes ul li {
+	display: inline;
+	margin-right: 60px;
+}
+
+.preferences .refreshTime h3 {
+	margin-top: 20px;
+}
+
+.preferences .refreshTime ul li {
+	display: inline;
+	margin-right: 40px;
+}
+
+.preferences .refresh {
+  display: none;
+}
+
+.preferences .refresh input {
+  padding: 5px;
+  font-size: 16px;
+  margin: 10px 5px;
+  display: inline-block;
+  width: 50px;
+  outline: none;
+}
+
+.chooseCategs {
+  display: none;
+}
+
+.chooseCategs#allCategories {
+  padding-top: 0;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.chooseCategs#allCategories .categ:hover {
+  color: #fff;
+}
+.chooseCategs h3{
+	margin-bottom: 10px;
+}
+
+.preferredCateg li {
+	clear: both;
+}
+
+.preferredCateg li input{
+	float: left;
+	margin-right: 10px;
+}
+
+.mainBody .preferences #saveMsg {
+  display: none;
+  position: relative;
+  right: 0;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(255,255,255,1.3);
+}

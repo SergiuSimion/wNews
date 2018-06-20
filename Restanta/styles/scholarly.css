@@ -1,0 +1,6 @@
+.container {
+  background: url('../images/notepad.jpg');
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
