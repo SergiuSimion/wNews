@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" />
+		<link rel="stylesheet" href="main.css" />
+		
+	</head>
+	
+	<body>
+		<header>
+			<a href="../index.html"><h1>wNews</h1></a>
+		</header>
+		
+		<div class="main">
+			<aside>
+				<ul class="options">
+					<li class="about" onclick="showContent('about')">About</li>
+					<li class="howItWorks" onclick="showContent('howItWorks')">How it works</li>
+					<li id="howItWorksSection">
+						<ul>
+							<li><a href="#signUpSection">Sign up</a></li>
+							<li><a href="#loginSection">Login</a></li>
+							<li><a href="#signInSection">Sign in</a></li>
+							<li><a href="#frontPageSection">Front page</a></li>
+							<li><a href="#articlePageSection">Article page</a></li>
+							<li><a href="#userPageSection">User page</a></li>
+							<li><a href="#registerPageSection">Register Page</a></li>
+						</ul>
+					</li>
+
+				</ul>
+			</aside>
+
+			<div class="content">
+				<div id="signUpSection"> 
+					<h1>Sign Up</h1>
+					<p>Offers the possibility to create an account and redirects you to Register Page. There you will have to give your personal information and submit it. After that you will be redirected to the Front Page where you will be able to log in.</p>
+				</div>	
+
+				<div id="loginSection"> 
+					<h1>Login</h1>
+					<p>Submits your personal information (username and password) searching for an existing account in our database.</p>
+				</div>	
+
+				<div id="signInSection"> 
+					<h1>Sign In</h1>
+					<p>Offers the possibility to log into your account, if you already passed through the Sign Up process, and customize your options. If you don't have an account, you can sign up or you can surf through the website as a guest. </p>
+				</div>	
+
+				<div id="frontPageSection"> 
+					<h1>Front Page</h1>
+					<p>Offers you the possibility to read the latest news presented in a nice way. If you have an account and you are connected, you can get only the news that you want by setting them in your page. You can do that by accesing your account if you press 'Edit your account' from header. Also, on the left side, you have a list of categories. Pressing one of them it will display you only the news from that category. Furthermore, anytime you want to access the Front Page, you can press our logo button from header, returning you to all news gathered togheter. If you access any article, it will send you to the Article Page or to an external url with more details.  </p>
+				</div>	
+
+				<div id="articlePageSection">
+					<h1>Article Page</h1>
+					<p>Offers you the posibility to see the details of an article, anytime you access one of them. (title, submitted date, author, article ratings and possible comments). If you want to go back to Front Page, press the logo button.</p>
+				</div>	
+
+				<div id="userPageSection"> 
+					<h1>User Page</h1>
+					<p>Offers you the possibility to customize your settings: update your personal information, choose the categories that you prefer and change your theme or the time you want us to refresh your news. If you want to go back to Front Page, press the logo button.</p>
+				</div>	
+
+				<div id="registerPageSection"> 
+					<h1>Register Page</h1>
+					<p>Offers you the possibility to create an account if you don't already have one. You can access this page by pressing the Sign Up button from the Front Page. When creating an account, you must complete several fields: first name and last name (these fields must contain only upper/lower letters, whitespaces or additional dash symbols), email (valid email format), username (not allowed to start with number or symbols; it must contain lower/uppers letters, numbers and aditional symbols : ".", "-", "_") and password( it must contain minimum 6 characters: at least one lower and one upper letter and at least one number). All these fields are required. If you want to go back to Front Page, press the logo button.</p>
+				</div>
+
+
+			</div>
+			
+			<div id="aboutSection">
+				<h1>Welcome</h1>
+				<p>Wews is a website which offers you the possibility to get in touch with the latest news around the world. It also has a nice appearance, which you can customize by choosing one of many themes. Furthermore, you can update your news on the time you prefer and also select the categories you are interested in. </p>
+			</div>
+		</div>
+				<script src="manage.js"> </script>
+	</body>
+</html>
